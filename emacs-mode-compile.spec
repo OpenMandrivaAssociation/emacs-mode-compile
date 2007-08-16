@@ -1,7 +1,7 @@
 %define rname mode-compile
 %define name emacs-%{rname}
 %define version 2.27
-%define release 8mdk
+%define release %mkrel 9
 
 %define flavor emacs
 
