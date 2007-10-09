@@ -5,7 +5,7 @@
 
 %define flavor emacs
 
-Summary: Smart command for compiling files according to major-mode.
+Summary: Smart command for compiling files according to major-mode
 Name: %{name}
 Version: %{version}
 Release: %{release}
