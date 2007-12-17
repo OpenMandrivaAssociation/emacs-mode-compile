@@ -14,7 +14,6 @@ Source0: %{rname}.el.bz2
 Source1: %{name}-autostart.el
 License: GPL
 Group: Editors
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Prefix: %{_prefix}
 BuildRequires: %{flavor}-bin
 BuildRequires: perl
