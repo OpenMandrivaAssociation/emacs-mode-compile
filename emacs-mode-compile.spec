@@ -75,3 +75,59 @@ rm -rf $RPM_BUILD_ROOT
 %doc DOCUMENTATION
 %config(noreplace) /etc/emacs/site-start.d/%{name}.el
 %{_datadir}/*/site-lisp/*el*
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.27-14mdv2011.0
++ Revision: 618051
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 2.27-13mdv2010.0
++ Revision: 428568
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 2.27-12mdv2009.0
++ Revision: 244767
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 2.27-10mdv2008.1
++ Revision: 124575
+- kill re-definition of %%buildroot on Pixel's request
+- fix summary-ended-with-dot
+- bump release
+- use %%mkrel
+- Import emacs-mode-compile
+
+
+
+* Fri Apr 29 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.27-8mdk
+- rebuild for new emacs
+
+* Thu Jul 22 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.27-7mdk
+- rebuild
+
+* Thu Jun 26 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.27-6mdk
+- fix description
+
+* Tue Jan 21 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.27-5mdk
+- rebuild for latest emacs
+
+* Fri Jan 17 2003 Lenny Cartier <lenny@mandrakesoft.com> 2.27-4mdk
+- rebuild
+
+* Fri Jun 21 2002 Götz Waschk <waschk@linux-mandrake.com> 2.27-3mdk
+- fix spelling in description
+- buildrequires emacs-bin
+
+* Thu Jun 20 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 2.27-2mdk 
+- fix %%prep, %%install
+- Buildarch noarch
+- bzip %%{SOURCE0}
+
+* Tue May 29 2001 Chmouel Boudjnah <chmouel@mandrakesoft.com> 2.27-1mdk
+- First version.
+
+# end of file
